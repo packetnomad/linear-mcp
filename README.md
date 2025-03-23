@@ -1,5 +1,7 @@
 # Linear MCP Server
 
+[![smithery badge](https://smithery.ai/badge/@packetnomad/linear-mcp)](https://smithery.ai/server/@packetnomad/linear-mcp)
+
 A Model Context Protocol (MCP) server implementation that provides access to Linear's issue tracking system through a standardized interface.
 
 ## Features
@@ -35,6 +37,14 @@ LINEAR_API_KEY=your_api_key  # Your Linear API token
 ```
 
 ## Installation & Setup
+
+### Installing via Smithery
+
+To install linear-mcp for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@packetnomad/linear-mcp):
+
+```bash
+npx -y @smithery/cli install @packetnomad/linear-mcp --client claude
+```
 
 ### 1. Clone the repository:
 
